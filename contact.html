@@ -4,25 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Capolavoro Makeup</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1>Capolavoro Makeup</h1>
+        <h1>Capolavoro Makeup<br><span>(God's masterpiece)</span></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Contact Us</h2>
-        <p>Get in touch to book your appointment</p>
-    </main>
-    
+      <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>Ready to reveal your masterpiece? Book your appointment or ask us any questions.</p>
+
+            <div class="contact-details">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>bookings@capolavoro.com</p>
+      </div>  
+      <div class="contact-item">
+        <h3>Phone</h3>
+        <p>+27 31 345 6789</p>
+      </div>
+      <div class="contact-item">
+        <h3>Studio</h3>
+        <p>123 Beauty Street<br>Umhlanga, Durban<br>4001</p>
+      </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone">
+                <select required>
+                    <option value="">Select Service</option>
+                    <option>Bridal Makeup</option>
+                    <option>Evening Glam</option>
+                    <option>Natural Day Makeup</option>
+                    <option>Editorial & Creative</option>
+                </select>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+      </div>
+
+       <div class="map-section">
+        <h3>Find Our Studio</h3>
+        <p>Map Location: Umhlanga, Durban</p>
+        <p><small>(Google Maps inteegration would be implemented here for a live website)</small></p>
+       </div>
+    </div>
+</main>
+    <footer>
+        <p>&copy; 2025 Capolavoro Makeup Artistry. All rights reserved.</p>
+    </footer>
 </body>
 </html>
